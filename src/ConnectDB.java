@@ -152,6 +152,7 @@ public class ConnectDB implements Runnable
         return foundUser;
     }
 
+
     public boolean setNewUserStatusInDB(String newStatusInput)
     {
         String query = "UPDATE Users SET status = '" + newStatusInput + "' WHERE userID = '" + Main.getCurrentUser().getUserID() + "'"; // CHANGE TO CURRENT USER ID
@@ -239,6 +240,7 @@ public class ConnectDB implements Runnable
             //SET TEXT LABEL INPUT TOO LONG.
         }
     }
+
 
 
 
