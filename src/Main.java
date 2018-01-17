@@ -1,24 +1,22 @@
-import java.util.ArrayList;
+//STANDARD COLORS | MAIN: 912d2d
+
 
 public class Main
 {
+    protected static ConnectDB connection = new ConnectDB();
+    private static User currentUser;
     public static void main(String args[])
     {
-        System.out.println("Welcome to Chappie version 0.1");
-        System.out.println("Testing the find user methods");
-        ConnectDB connection = new ConnectDB();
-        User userByUsername = connection.getUserByUsername("admin");
-        userByUsername.printUser();
-        System.out.println();
-        User userByUserID = connection.getUserByID(2);
-        userByUserID.printUser();
-        System.out.println();
-        ArrayList<User> searchresults = connection.getUserByName("admin");
+        connection.registerNewUser("Register Test", "RegisterTest", "registertest", "registertest");
+        connection.login("RegisterTest", "registertest");
+        currentUser.printUser();
+    }
 
-        for(int i = 0; i<searchresults.size(); i++)
-        {
-            searchresults.get(i).printUser();
-            System.out.println();
-        }
+    public static User getCurrentUser() {
+        return currentUser;
+    }
+
+    public static void setCurrentUser(User currentUser) {
+        Main.currentUser = currentUser;
     }
 }
