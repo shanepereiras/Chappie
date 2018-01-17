@@ -56,4 +56,29 @@ public class User {
         System.out.println("onlineStatus = " + this.onlineStatus);
     }
 
+    public void changeUserStatus(String newUserStatus)
+    {
+        if(Main.connection.setNewUserStatusInDB(newUserStatus))
+        {
+            this.setStatus(newUserStatus);
+        }
+    }
+
+    public void changeUserOnlineStatus(int statusNumber)
+    {
+        if(Main.connection.setOnlineStatusInDB(statusNumber))
+        {
+            this.setOnlineStatus(statusNumber);
+        }
+
+    }
+
+    public void changeUserName(String newName)
+    {
+        if(Main.connection.setNewNameInDB(newName))
+        {
+            this.setName("newName");
+        }
+
+    }
 }
