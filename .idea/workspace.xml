@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2403f13-bbb7-4645-bc47-a58ba50edda5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Chappie.iml" afterPath="$PROJECT_DIR$/Chappie.iml" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/src/Chat.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/src/CurrentChat.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/src/MainInterface.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/src/newChatButton.java" afterPath="" />
-    </list>
+    <list default="true" id="a2403f13-bbb7-4645-bc47-a58ba50edda5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +25,8 @@
       <file leaf-file-name="login.fxml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GUI/src/login.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+            <state relative-caret-position="136">
+              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -785,8 +778,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/src/login.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        <state relative-caret-position="136">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding />
         </state>
       </provider>
