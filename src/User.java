@@ -81,4 +81,9 @@ public class User {
         }
 
     }
+
+    public void changePassword(String oldPassword, String newPassword, String newPassword2)
+    {
+
+    }
 }
