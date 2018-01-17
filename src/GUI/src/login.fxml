@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #271c1c;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginGUI">
+   <children>
+      <Label layoutX="258.0" layoutY="119.0" text="Chappie" textFill="#912d2d">
+         <font>
+            <Font name="Plan G" size="25.0" />
+         </font>
+      </Label>
+      <JFXTextField focusColor="#ea5353" layoutX="225.0" layoutY="172.0" prefHeight="25.0" prefWidth="192.0" promptText="  Username" unFocusColor="#902626">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font></JFXTextField>
+      <JFXPasswordField focusColor="#ea5353" layoutX="225.0" layoutY="223.0" prefHeight="25.0" prefWidth="192.0" promptText="  Password" unFocusColor="#902626">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </JFXPasswordField>
+      <JFXButton layoutX="350.0" layoutY="252.0" text="Login" textFill="#ea5353">
+         <font>
+            <Font name="Caviar Dreams" size="15.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="99.0" fitWidth="103.0" layoutX="251.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ICON.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="218.0" layoutY="312.0" text="Not a member?" textFill="#912d2d">
+         <font>
+            <Font name="Caviar Dreams" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="32.0" fitWidth="40.0" layoutX="183.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@user.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="40.0" layoutX="183.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@lock.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="61.0" fitWidth="69.0" layoutX="14.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@CORNER.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="61.0" fitWidth="69.0" layoutX="525.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@CORNER2.png" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="298.0" layoutY="324.0" onAction="#signupButtonClicked" text="Sign UP" textFill="#ea5353">
+         <font>
+            <Font name="Caviar Dreams Bold" size="17.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton layoutX="183.0" layoutY="255.0" text="Forgot password?" textFill="#912d2d">
+         <font>
+            <Font name="Caviar Dreams" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton layoutX="525.0" layoutY="353.0" onAction="#closeButtonClicked" text="Close" textFill="#912d2d">
+         <font>
+            <Font name="Caviar Dreams" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+   </children>
+</AnchorPane>
