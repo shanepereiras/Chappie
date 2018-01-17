@@ -15,8 +15,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -25,10 +25,21 @@
       <file leaf-file-name="ConnectDB.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ConnectDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1113">
-              <caret line="137" column="18" lean-forward="false" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="18" />
+            <state relative-caret-position="398">
+              <caret line="306" column="5" lean-forward="true" selection-start-line="306" selection-start-column="5" selection-end-line="306" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#run#0;class#ConnectDB#0" expanded="false" />
+                <element signature="method#ConnectDB#0;class#ConnectDB#0" expanded="false" />
+                <element signature="method#login#0;class#ConnectDB#0" expanded="false" />
+                <element signature="method#getUserByName#0;class#ConnectDB#0" expanded="false" />
+                <element signature="method#getUserByID#0;class#ConnectDB#0" expanded="false" />
+                <element signature="method#getUserByUsername#0;class#ConnectDB#0" expanded="false" />
+                <element signature="method#setNewUserStatusInDB#0;class#ConnectDB#0" expanded="false" />
+                <element signature="method#setOnlineStatusInDB#0;class#ConnectDB#0" expanded="false" />
+                <element signature="method#setNewNameInDB#0;class#ConnectDB#0" expanded="false" />
+                <element signature="method#registerNewUser#0;class#ConnectDB#0" expanded="false" />
+                <element signature="method#setNewPasswordInDBForRequestedChangePassword#0;class#ConnectDB#0" expanded="false" />
+                <element signature="method#setNewPasswordInDBForRequestedForgotPassword#0;class#ConnectDB#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -37,14 +48,14 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/User.java">
           <provider selected="true" editor-type-id="text-editor">
-
-            <state relative-caret-position="680">
-              <caret line="76" column="4" lean-forward="false" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+            <state relative-caret-position="448">
+              <caret line="85" column="4" lean-forward="false" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
               <folding>
                 <element signature="method#printUser#0;class#User#0" expanded="false" />
                 <element signature="method#changeUserStatus#0;class#User#0" expanded="false" />
                 <element signature="method#changeUserOnlineStatus#0;class#User#0" expanded="false" />
                 <element signature="method#changeUserName#0;class#User#0" expanded="false" />
+                <element signature="method#changePassword#0;class#User#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -71,12 +82,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/User.java" />
-        <option value="$PROJECT_DIR$/src/ConnectDB.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/ConnectDB.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="302" />
     <option name="y" value="22" />
     <option name="width" value="1400" />
@@ -98,7 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
@@ -118,6 +128,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,21 +269,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="302" y="22" width="1400" height="1000" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1799133" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -283,7 +296,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -321,11 +333,62 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/ConnectDB.java</url>
+          <line>10</line>
+          <properties field="conn" class="ConnectDB" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ConnectDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2261">
+          <caret line="137" column="18" lean-forward="false" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="18" />
+          <folding>
+            <element signature="method#run#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#ConnectDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#login#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByName#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByID#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByUsername#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewUserStatusInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setOnlineStatusInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewNameInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#registerNewUser#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewPasswordInDBForRequestedChangePassword#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewPasswordInDBForRequestedForgotPassword#0;class#ConnectDB#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="76" column="4" lean-forward="false" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
+          <folding>
+            <element signature="method#printUser#0;class#User#0" expanded="false" />
+            <element signature="method#changeUserStatus#0;class#User#0" expanded="false" />
+            <element signature="method#changeUserOnlineStatus#0;class#User#0" expanded="false" />
+            <element signature="method#changeUserName#0;class#User#0" expanded="false" />
+            <element signature="method#changePassword#0;class#User#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -343,6 +406,7 @@
             <element signature="method#changeUserStatus#0;class#User#0" expanded="false" />
             <element signature="method#changeUserOnlineStatus#0;class#User#0" expanded="false" />
             <element signature="method#changeUserName#0;class#User#0" expanded="false" />
+            <element signature="method#changePassword#0;class#User#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -352,7 +416,18 @@
         <state relative-caret-position="2261">
           <caret line="137" column="18" lean-forward="false" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#run#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#ConnectDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#login#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByName#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByID#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByUsername#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewUserStatusInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setOnlineStatusInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewNameInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#registerNewUser#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewPasswordInDBForRequestedChangePassword#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewPasswordInDBForRequestedForgotPassword#0;class#ConnectDB#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -370,7 +445,18 @@
         <state relative-caret-position="442">
           <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#run#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#ConnectDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#login#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByName#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByID#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByUsername#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewUserStatusInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setOnlineStatusInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewNameInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#registerNewUser#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewPasswordInDBForRequestedChangePassword#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewPasswordInDBForRequestedForgotPassword#0;class#ConnectDB#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -384,6 +470,7 @@
             <element signature="method#changeUserStatus#0;class#User#0" expanded="false" />
             <element signature="method#changeUserOnlineStatus#0;class#User#0" expanded="false" />
             <element signature="method#changeUserName#0;class#User#0" expanded="false" />
+            <element signature="method#changePassword#0;class#User#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -401,7 +488,18 @@
         <state relative-caret-position="680">
           <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#run#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#ConnectDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#login#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByName#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByID#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByUsername#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewUserStatusInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setOnlineStatusInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewNameInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#registerNewUser#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewPasswordInDBForRequestedChangePassword#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewPasswordInDBForRequestedForgotPassword#0;class#ConnectDB#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -415,6 +513,7 @@
             <element signature="method#changeUserStatus#0;class#User#0" expanded="false" />
             <element signature="method#changeUserOnlineStatus#0;class#User#0" expanded="false" />
             <element signature="method#changeUserName#0;class#User#0" expanded="false" />
+            <element signature="method#changePassword#0;class#User#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -432,7 +531,18 @@
         <state relative-caret-position="442">
           <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#run#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#ConnectDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#login#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByName#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByID#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByUsername#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewUserStatusInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setOnlineStatusInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewNameInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#registerNewUser#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewPasswordInDBForRequestedChangePassword#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewPasswordInDBForRequestedForgotPassword#0;class#ConnectDB#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -446,11 +556,11 @@
             <element signature="method#changeUserStatus#0;class#User#0" expanded="false" />
             <element signature="method#changeUserOnlineStatus#0;class#User#0" expanded="false" />
             <element signature="method#changeUserName#0;class#User#0" expanded="false" />
+            <element signature="method#changePassword#0;class#User#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -464,7 +574,18 @@
         <state relative-caret-position="442">
           <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#run#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#ConnectDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#login#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByName#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByID#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByUsername#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewUserStatusInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setOnlineStatusInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewNameInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#registerNewUser#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewPasswordInDBForRequestedChangePassword#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewPasswordInDBForRequestedForgotPassword#0;class#ConnectDB#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -478,6 +599,7 @@
             <element signature="method#changeUserStatus#0;class#User#0" expanded="false" />
             <element signature="method#changeUserOnlineStatus#0;class#User#0" expanded="false" />
             <element signature="method#changeUserName#0;class#User#0" expanded="false" />
+            <element signature="method#changePassword#0;class#User#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -495,7 +617,18 @@
         <state relative-caret-position="680">
           <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#run#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#ConnectDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#login#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByName#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByID#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByUsername#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewUserStatusInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setOnlineStatusInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewNameInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#registerNewUser#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewPasswordInDBForRequestedChangePassword#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewPasswordInDBForRequestedForgotPassword#0;class#ConnectDB#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -509,27 +642,7 @@
             <element signature="method#changeUserStatus#0;class#User#0" expanded="false" />
             <element signature="method#changeUserOnlineStatus#0;class#User#0" expanded="false" />
             <element signature="method#changeUserName#0;class#User#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="76" column="4" lean-forward="false" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
-          <folding>
-            <element signature="method#printUser#0;class#User#0" expanded="false" />
-            <element signature="method#changeUserStatus#0;class#User#0" expanded="false" />
-            <element signature="method#changeUserOnlineStatus#0;class#User#0" expanded="false" />
-            <element signature="method#changeUserName#0;class#User#0" expanded="false" />
+            <element signature="method#changePassword#0;class#User#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -541,12 +654,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test update.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ConnectDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1113">
-          <caret line="137" column="18" lean-forward="false" selection-start-line="137" selection-start-column="18" selection-end-line="137" selection-end-column="18" />
+        <state relative-caret-position="398">
+          <caret line="306" column="5" lean-forward="true" selection-start-line="306" selection-start-column="5" selection-end-line="306" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#run#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#ConnectDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#login#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByName#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByID#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#getUserByUsername#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewUserStatusInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setOnlineStatusInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewNameInDB#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#registerNewUser#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewPasswordInDBForRequestedChangePassword#0;class#ConnectDB#0" expanded="false" />
+            <element signature="method#setNewPasswordInDBForRequestedForgotPassword#0;class#ConnectDB#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="85" column="4" lean-forward="false" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+          <folding>
+            <element signature="method#printUser#0;class#User#0" expanded="false" />
+            <element signature="method#changeUserStatus#0;class#User#0" expanded="false" />
+            <element signature="method#changeUserOnlineStatus#0;class#User#0" expanded="false" />
+            <element signature="method#changeUserName#0;class#User#0" expanded="false" />
+            <element signature="method#changePassword#0;class#User#0" expanded="false" />
           </folding>
         </state>
       </provider>

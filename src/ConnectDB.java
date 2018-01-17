@@ -3,6 +3,7 @@ import com.sun.org.apache.xpath.internal.SourceTree;
 
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.UUID;
 
 public class ConnectDB implements Runnable
 {
@@ -152,7 +153,6 @@ public class ConnectDB implements Runnable
         return foundUser;
     }
 
-
     public boolean setNewUserStatusInDB(String newStatusInput)
     {
         String query = "UPDATE Users SET status = '" + newStatusInput + "' WHERE userID = '" + Main.getCurrentUser().getUserID() + "'"; // CHANGE TO CURRENT USER ID
@@ -223,7 +223,7 @@ public class ConnectDB implements Runnable
                     //CLOSE REGISTER SCREEN.
                     //OPEN LOGIN SCREEN.
                 } catch (SQLException e) {
-                    System.out.println("Something went wrong. We could not update the name.");
+                    System.out.println("This username is already used.");
                     e.printStackTrace();
                     //CHANGE TEXT LABEL IN GUI.
                 }
@@ -241,6 +241,70 @@ public class ConnectDB implements Runnable
         }
     }
 
+    public boolean setNewPasswordInDBForRequestedChangePassword(String oldPasswordInput, String newPasswordInput, String newPassword2Input)
+    {
+        String query = "SELECT password FROM users WHERE userID = '" + Main.getCurrentUser().getUserID() + "'";
+        String currentPasswordInDB = "";
+        try
+        {
+            Statement stmt = conn.createStatement();
+            ResultSet rs = stmt.executeQuery(query);
+
+            while(rs.next())
+            {
+                currentPasswordInDB = rs.getString("password");
+            }
+
+            stmt.close();
+            rs.close();
+        }
+        catch(SQLException e)
+        {
+            System.out.println("Something went wrong. Could not fetch password from database.");
+            return false;
+        }
+
+        if(newPasswordInput.equals(newPassword2Input))
+        {
+            if (oldPasswordInput.equals(currentPasswordInDB))
+            {
+                String query2 = "UPDATE Users SET password = '" + newPasswordInput + "' WHERE userID = " + Main.getCurrentUser().getUserID();
+                try
+                {
+                    Statement stmt2 = conn.createStatement();
+                    stmt2.executeUpdate(query2);
+                    stmt2.close();
+
+                    return true;
+                }
+                catch (SQLException e)
+                {
+                    System.out.println("Couldnt change password.");
+                    e.printStackTrace();
+                    return false;
+                }
+            }
+            else
+            {
+                System.out.println("Passwords don't match");
+                //SET TEXT LABEL PASSWORDS DON'T MATCH.
+                return false;
+            }
+        }
+        else
+        {
+            System.out.println("You used the wrong password.");
+            //SET TEXT LABEL PASSWORDS INCORRECT
+            return false;
+        }
+    }
+
+    public void setNewPasswordInDBForRequestedForgotPassword()
+    {
+        String uuid = UUID.randomUUID().toString();
+        uuid = uuid.replace("-", "");
+        System.out.println(uuid);
+    }
 
 
 

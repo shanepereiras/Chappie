@@ -1,4 +1,7 @@
-//STANDARD COLORS | MAIN: 912d2d
+//STANDARD COLORS | MAIN RED: 912d2d
+//STANDARD COLORS | LIGHT RED: ea5353
+//STANDARD COLORS | DARK RED: 902626
+//STANDARD COLORS | DARKEST RED: 271c1c
 
 
 public class Main
@@ -7,9 +10,9 @@ public class Main
     private static User currentUser;
     public static void main(String args[])
     {
-        connection.registerNewUser("Register Test", "RegisterTest", "registertest", "registertest");
-        connection.login("RegisterTest", "registertest");
+        connection.login("test", "test");
         currentUser.printUser();
+
     }
 
     public static User getCurrentUser() {
